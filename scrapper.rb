@@ -1,6 +1,8 @@
 require 'open-uri'
 require 'nokogiri'
 
+# www.techmaker.tv
+
 cities        = ['denver', 'albuquerque']
 search_terms  = ['ruby']
 
