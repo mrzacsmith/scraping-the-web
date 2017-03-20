@@ -18,8 +18,4 @@
 + ```parsed_content.css('.content').css('.rows').css('.hdrlnk').first.inner_text```
 + ```parsed_content.css('.content').css('.rows').css('.hdrlnk').first.inner_html```
 + ```parsed_content.css('.content').css('.rows').css('.hdrlnk').first```
-+ ```parsed_content.css('.content').css('.rows').each do |row|
-      puts "#{row.css('.hdrlnk').first.inner_text}"
-      end```
-
-+  
+ 

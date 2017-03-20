@@ -17,7 +17,7 @@ cities.each do |city|
     parsed_content = Nokogiri::HTML(content)
 
     puts "=========================================="
-    puts " #{city} - #{search_term}"
+    puts "   #{city} - #{search_term}"
     puts "=========================================="
 
     # puts parsed_content.css('.content').css('.rows').css('.hdrlnk').first.inner_text
